@@ -1,0 +1,125 @@
+---
+name: 'manage_army'
+location:
+  left: 0 
+  top: 0 
+  width: 763
+  height: 608
+
+children:
+  - name: 'selected_units'
+    location:
+      left: 25
+      top: 177
+      width: 270
+      height: 150
+
+    children:
+      - name: 'unit_icon_0'
+        location:
+          left: 11
+          top: 14
+          width: 54
+          height: 59
+      - name: 'unit_icon_1'
+        location:
+          left: 75
+          top: 14
+          width: 54
+          height: 59
+      - name: 'unit_icon_2'
+        location:
+          left: 145
+          top: 14
+          width: 54
+          height: 59
+      - name: 'unit_icon_3'
+        location:
+          left: 210
+          top: 14
+          width: 54
+          height: 59
+      - name: 'unit_icon_4'
+        location:
+          left: 11
+          top: 84
+          width: 54
+          height: 59
+      - name: 'unit_icon_5'
+        location:
+          left: 75
+          top: 84
+          width: 54
+          height: 59
+      - name: 'unit_icon_6'
+        location:
+          left: 145
+          top: 84
+          width: 54
+          height: 59
+      - name: 'unit_icon_7'
+        location:
+          left: 210
+          top: 84
+          width: 54
+          height: 59
+
+  - name: 'available_units'
+    location:
+      left: 92
+      top: 350
+      width: 655
+      height: 215
+
+    children:
+      - name: 'units_pool'
+        location:
+          left: 10
+          top: 40
+          width: 627
+          height: 144
+      - name: 'unit_type_tabs'
+        location:
+          left: 5
+          top: 3
+          width: 265
+          height: 36
+        children:
+          - name: 'all'
+            location:
+              left: 5
+              top: 4
+              width: 36
+              height: 28
+          - name: 'fast'
+            location:
+              left: 50
+              top: 4
+              width: 36
+              height: 28
+          - name: 'heavy'
+            location:
+              left: 95
+              top: 4
+              width: 36
+              height: 28
+          - name: 'light'
+            location:
+              left: 140
+              top: 4
+              width: 36
+              height: 28
+          - name: 'artillery'
+            location:
+              left: 185
+              top: 4
+              width: 36
+              height: 28
+          - name: 'ranged'
+            location:
+              left: 225
+              top: 4
+              width: 36
+              height: 28
+
+
